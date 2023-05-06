@@ -35,3 +35,16 @@ con.sql("CREATE DATABASE mydb", (err, res)=>{
   console.log("Database created");
 });
 ```
+## Tutorial
+Nanoql tutorial
+### Quick start and installation
+```
+$ npm install nanoql
+```
+### Creating connection
+We must create connection with Nanoql class.
+```js
+var Nanoql = require('nanoql');
+```
+#### `.sql()` method
+We can use `.sql()` method for sending
