@@ -45,6 +45,9 @@ $ npm install nanoql
 We must create connection with Nanoql class.
 ```js
 var Nanoql = require('nanoql');
+
+var con = new Nanoql(["localhost", "username", "password"]);
+console.log("Connected");
 ```
 #### `.sql()` method
 We can use `.sql()` method for sending
