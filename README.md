@@ -1,4 +1,4 @@
-# Nanoql
+# NanoQL
 ![640360](https://user-images.githubusercontent.com/69193276/236635449-fac48dbd-6411-45c1-8699-e4552c4c4350.png)
 
 Nanoql is a Node.js library that simplifies MySQL database management in Node.js and supports shortcodes
