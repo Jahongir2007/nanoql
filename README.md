@@ -57,11 +57,14 @@ var Nanoql = require('nanoql');
 var con = new Nanoql(["localhost", "username", "password"]);
 console.log("Connected");
 
-con.sql(`SQL_QUERY`, ([options]));
+con.sql(`SQL_QUERY`, (err, res, flds)=>{
+  con.isErr(err); // checking and getting errors
+  console.log("Done");
+});
 ```
 ### `.isErr()` method
-```js
 We can use `.isErr()` method to get MySQL errors to console.
+```js
 var Nanoql = require('nanoql');
 
 var con = new Nanoql(["localhost", "username", "password"]);
